@@ -10,8 +10,8 @@ function App() {
   useEffect(() => {
     console.log(size);
 
-    if (size.width <= 600) setBackgroundColor('bg-yellow')
-    else if (size.width > 600 && size.width <= 800) setBackgroundColor('bg-green')
+    if (size.width <= 500) setBackgroundColor('bg-yellow')
+    else if (size.width > 500 && size.width <= 900) setBackgroundColor('bg-green')
     else setBackgroundColor('bg-blue')
   }, [size]);
 
